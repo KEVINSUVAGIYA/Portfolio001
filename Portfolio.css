@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+/* Parallax Scrolling Section Styles */
+.info-tabs {
+  /* background-image: url("https://i.pinimg.com/originals/6f/6c/15/6f6c1538b050072b002dbc06bedaaf90.jpg");
+  background-size: cover; */
+  background: linear-gradient(180deg, rgb(255, 220, 235) 0%, rgb(205, 228, 255) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.info-inner{
+  /* color: rgb(124, 183, 252); */
+  padding: 40px;
+  max-width: 60%;
+  min-width: 50%;
+  background: linear-gradient(90deg, rgb(255, 118, 177) 0%, rgb(124, 183, 252) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px white;
+}
+
+hr{
+  border: 1px solid white;
+  width: 60%;
+}
+
+.prl{
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prl1{
+  background-image: url("https://wallpapercave.com/wp/wp4430590.jpg");
+
+}
+.prl2{
+  background-image: url("https://media.giphy.com/media/l0HeqpHy8Gkwlwuly/giphy.gif");
+}
+
+.prl3 {
+  background-image: url("https://wallpapercave.com/wp/wp5789215.jpg");
+}
+
+.prl4 {
+  background-image: url("https://static1.makeuseofimages.com/wp-content/uploads/2019/05/ASUSZenBookDuo.jpg");
+}
+
+.prl5 {
+  background-image: url("https://media1.giphy.com/media/Md9SgqYQX3eIWHJcHL/giphy.gif?cid=ecf05e472gz930snc1s87ohx4ajh5is7f2le9brmfh6caux8&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#home{
+  background: linear-gradient(180deg, rgb(255, 220, 235) 0%, rgb(205, 228, 255) 100%);
+}
+
+.home-content {
+  text-align: center;
+  background: linear-gradient(90deg, rgb(255, 118, 177) 0%, rgb(124, 183, 252) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.home-content h1 {
+  font-size: 48px;
+}
+
+.home-content h2 {
+  font-size: 36px;
+}
+
+.home-content p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+table{
+  text-align: center;
+}
+
+td, th {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.exp-img{
+  border-radius: 6px;
+  margin: 30px 10px 80px 10px;
+  width: 250px;
+  float: left;
+}
+.hob-img{
+  border-radius: 6px;
+  margin: 10px 20px;
+  width: 250px;
+  float: right;
+}
+.link:hover{
+  color: white;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+button{
+  color: red;
+}
+a{
+  margin: auto 20px;
+}
